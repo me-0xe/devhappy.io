@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text');
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background: #2b5876;  /* fallback for old browsers */
+  background-image: linear-gradient(to left bottom, #845ec2, #2084e2, #00a1e6, #00b7d3, #00c9b7);
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0% 100%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  &__tag {
+    min-width: 300px;
+    border: solid 1px black;
+    border-radius: 9px;
+    margin-top: -35px;
+  }
+
+  &__info {
+    background-color: #fdfdf0;
+    padding: 15px;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+
+    &--list {
+      text-align: left;
+      list-style-type: none;
+    }
+
+    &--barcode {
+      font-family: 'Libre Barcode 128 Text', cursive;
+      font-size: 32px;
+      margin: 0;
+    }
+  }
+
+  &__tag-loop {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px 8px 0 0;
+    margin: 0 auto;
+    width: 100%;
+
+    img {
+      border-radius: 8px 8px 0 0;
+    }
+  }
+
+  &__image--circular {
+    width: 200px;
+    border: solid 1px black;
+    border-radius: 50%;
+  }
+}

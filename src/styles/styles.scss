@@ -1,0 +1,13 @@
+// Load CSS Reset from NPM
+@import "~normalize.css";
+@import "_hero";
+@import "_section";
+@import "_about";
+@import "_footer";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+}

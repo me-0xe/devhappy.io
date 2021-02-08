@@ -1,0 +1,12 @@
+<svg width="300" height="55" viewBox="0 0 79.375 14.552" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="b">
+      <path class="powerclip" d="M18.163 13.388h43.664v15.179H18.163zm7.74 5.118c-1.415 0-2.554 1.097-2.554 2.46s1.14 2.46 2.555 2.46h28.25c1.416 0 2.555-1.098 2.555-2.46s-1.14-2.46-2.554-2.46z" stroke-width=".205"/>
+    </clipPath>
+    <clipPath id="a">
+      <path class="powerclip" d="M-5-5h89.375v24.552H-5zm30.546 9.577c-1.49 0-2.69 1.155-2.69 2.59 0 1.434 1.2 2.589 2.69 2.589h28.285c1.49 0 2.69-1.155 2.69-2.59 0-1.434-1.2-2.589-2.69-2.589z" fill="red" stroke-width=".211"/>
+    </clipPath>
+  </defs>
+  <path d="M0 0h79.375v14.552H0z" clip-path="url(#a)" fill="#fff"/>
+  <path transform="translate(-.306 -13.811)" d="M25.852 18.388h28.285c1.49 0 2.69 1.155 2.69 2.59s-1.2 2.589-2.69 2.589H25.852c-1.49 0-2.69-1.155-2.69-2.59s1.2-2.589 2.69-2.589z" clip-path="url(#b)"/>
+</svg>

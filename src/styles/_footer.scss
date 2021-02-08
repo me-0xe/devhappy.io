@@ -1,0 +1,18 @@
+.footer {
+  margin-bottom: 32px;
+
+  .section {
+    &__heading {
+      margin-bottom: 5px;
+    }
+
+    &__content {
+      font-size: 26px;
+
+      a {
+        color: #2084e2;
+        text-decoration: none;
+      }
+    }
+  }
+}
